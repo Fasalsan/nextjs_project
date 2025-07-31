@@ -3,7 +3,7 @@
 
 export default function DetailCard({ title, description, imageUrl }) {
   return (
-    <div className="p-8 max-w-xl mx-auto">
+    <div className="p-8 max-w-xl mx-auto bg-white">
       <img
         src={imageUrl}
         alt={title}
