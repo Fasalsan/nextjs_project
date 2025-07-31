@@ -28,7 +28,7 @@ export default function ImageSlider() {
     }
 
     return (
-     <div className="relative w-full max-w-4xl mx-auto overflow-hidden">
+     <div className="relative w-full max-h-140 mx-auto overflow-hidden">
             {/* Aspect ratio 16:9 */}
             <div className="relative aspect-[16/9]">
                 <img
@@ -43,22 +43,22 @@ export default function ImageSlider() {
                 </div>
 
                 {/* Prev button */}
-                <button
+                {/* <button
                     onClick={prevSlide}
                     className="absolute top-1/2 left-4 -translate-y-1/2 bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-75"
                     aria-label="Previous Slide"
                 >
                     ‹
-                </button>
+                </button> */}
 
                 {/* Next button */}
-                <button
+                {/* <button
                     onClick={nextSlide}
                     className="absolute top-1/2 right-4 -translate-y-1/2 bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-75"
                     aria-label="Next Slide"
                 >
                     ›
-                </button>
+                </button> */}
             </div>
 
             {/* Dots */}
