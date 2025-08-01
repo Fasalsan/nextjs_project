@@ -36,7 +36,7 @@ export default function ProductDetail() {
   }
 
   return (
-    <div className=" mx-auto p-4 bg-white">
+    <div className=" mx-auto p-4 bg-white h-screen">
       <div
         onClick={() => router.back()}
         className="bg-gray-300 text-white p-4 rounded-full w-fit cursor-pointer group transition duration-200 ease-in-out"
@@ -54,7 +54,7 @@ export default function ProductDetail() {
             <h1 className="text-3xl font-bold mb-2">
               {product.title[lang] || product.title['en']}
             </h1>
-            <p className="text-sm text-gray-500 mb-4">
+            <p className="text-sm mb-4">
               Category: {product.category}
             </p>
 
